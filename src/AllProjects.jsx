@@ -4,13 +4,13 @@ import './AllProjects.css';
 const images = [
     '/images/react.png',
     '/images/react.png',
+    '/images/vscode.png',
     '/images/react.png',
+    '/images/vscode.png',
     '/images/react.png',
+    '/images/vscode.png',
     '/images/react.png',
-    '/images/react.png',
-    '/images/react.png',
-    '/images/react.png',
-    '/images/react.png',
+    '/images/vscode.png',
 ];
 
 
