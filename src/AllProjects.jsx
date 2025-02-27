@@ -49,7 +49,7 @@ const Card = ({ direction }) => {
         <div className='card-conteiner' ref={cardRef} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
             <div className='card-content'>
                 {images.map((image, index) => (
-                    <a key={index} href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">
+                    <a key={index} href="https://github.com/Sasha2232/Projects" target="_blank" rel="noopener noreferrer">
                         <img
                             src= '/images/png1.png'
                             className='card-image'
@@ -59,7 +59,7 @@ const Card = ({ direction }) => {
                     </a>
                 ))}
                 {images.map((image, index) => (
-                    <a key={index} href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">
+                    <a key={index} href="https://github.com/Sasha2232/Projects" target="_blank" rel="noopener noreferrer">
                         <img
                             src={image}
                             className='card-image'
