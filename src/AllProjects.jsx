@@ -2,7 +2,7 @@ import React, {useEffect, useState, useRef} from 'react'
 import './AllProjects.css';
 
 const images = [
-    '/images/png1.png',
+    '/images/react.png',
     '/images/png2.png',
     '/images/png1.png',
     '/images/png1.png',
