@@ -1,0 +1,127 @@
+.container-otz {
+  background-color: #5a5ea5;
+  padding: 20px;
+  max-width: 1500px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 25px;
+  margin-top: 70px;
+}
+
+.block-otz {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.block-otz h1 {
+  font-size: 80px;
+  color: white;
+  margin-bottom: 10px;
+  background-color: #242755;
+  width: 643px;
+  text-align: center;
+  margin-left: 428px;
+  border-radius: 8px;
+  margin-bottom: 1px;
+  box-shadow: 0 4px 8px #24283b;
+}
+
+
+.content-otz {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: space-between;
+}
+
+.feedback-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  height: 400px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 25px;
+}
+
+.feedback-card h3 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  background-color: #21223d;
+  width: 350px;
+  height: 80px;
+  margin-top: -20px;
+  margin-left: -20px;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+}
+
+.feedback-card p {
+  font-size: 35px;
+  color: black;
+  text-align: center;
+}
+
+.feedback-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 40px 50px rgba(0, 0, 0, 0.2);
+}
+
+.otz{
+  font-size: 100px;
+}
+
+form {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #24283b;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+
+form label {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+form input:focus {
+  border-color: #24283b; 
+  box-shadow: 0 0 5px #24283b;
+}
+
+form button {
+  padding: 12px;
+  font-size: 18px;
+  background-color: #21223d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #383952;
+}
+
+form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
